@@ -15,13 +15,13 @@
 
  export interface SendData {
   /**
-   * Download token, which is used to obtain the download status.
+   * Data to send.
    */
   data: string;
 }
  
 /**
-* Called when downloading fails.
+* Interface to send a data to Android phone.
 */
  export interface InterconnectAPI {
 	static send(options: {

@@ -70,4 +70,10 @@ export default class Audio {
   
   static stop(): void;
   
+  static onplay?: (e) => void;
+  static onpause?: (e) => void;
+  static onstop?: (e) => void;
+  static onended?: (e) => void;
+  static onerror?: (e) => void;
+  
 }
